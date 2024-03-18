@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(250, 241, 229);
+}
+.container{
+    height: 70vh;
+    width: 40vw;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5vmin;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 10px 58px -20px rgb(75, 145, 225);
+}
+form{
+    width:80%;
+    height:90%;
+}
+.input{
+    padding: 15px;
+    width: 100%;
+    border-radius: 2vmin;
+    background: transparent;
+    border: 2px black solid;
+    margin:15px;
+    font-size: 1.25rem;
+    outline: none;
+}
+
+.heading{
+    margin-top: 2vmin;
+    width:100%;
+    color: rgb(86, 145, 232);
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom:10px;
+}
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vmin;
+}
+.password{
+    width: 100%;
+}
+#pass{
+    margin-left: 8vmin;
+    text-align: left;
+    font-size:  16px ;
+}
+#pass a{
+    text-decoration: none;
+    color:rgb(68, 123, 219) ;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 3vmin;
+}
+.btn{
+    padding: 1.5vmin 3vmin;
+    background-color: rgb(81, 151, 231);
+    border: none;
+    border-radius: 0.5vmin;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: rgb(73, 140, 222);
+    scale: 110%;
+}
+.btn2{
+    background-color: #eaeaea;
+    color: black ;
+}
+.btn1{
+    background-color: rgb(71, 145, 219);
+    color: black;
+}
+
+
