@@ -2,11 +2,11 @@
 .delete, .update, #yes, #no{
     cursor: pointer;
     padding:10px 20px;
-    background-color: rgb(255, 201, 129);
+    background-color: rgb(75, 145, 225);
     margin-bottom:10px;
 }
 #prompt{
-    background-color: rgb(249, 184, 99);
+    background-color: rgb(75, 145, 225);
     width:70vw;
     position: absolute;
     top:0;
